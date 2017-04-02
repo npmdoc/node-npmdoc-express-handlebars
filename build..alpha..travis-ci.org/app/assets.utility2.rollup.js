@@ -13413,6 +13413,7 @@ header: '\
             onParallel.remaining = options.list.length;
             options.rateLimit = Number(options.rateLimit) || 8;
             options.rateLimit = Math.max(options.rateLimit, 2);
+            options.retryLimit = Number(options.retryLimit) || 2;
             onEach2();
             onParallel();
         };
@@ -15331,7 +15332,7 @@ instruction\n\
                     return element.trim();
                 }),
                 rateLimit: process.argv[4],
-                retryLimit: process.argv[5] || 2
+                retryLimit: process.argv[5]
             }, function (options, onParallel) {
                 onParallel.counter += 1;
                 local.child_process.spawn(
