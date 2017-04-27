@@ -1,6 +1,6 @@
 # npmdoc-express-handlebars
 
-#### api documentation for  [express-handlebars (v3.0.0)](https://github.com/ericf/express-handlebars)  [![npm package](https://img.shields.io/npm/v/npmdoc-express-handlebars.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-express-handlebars) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-express-handlebars.svg)](https://travis-ci.org/npmdoc/node-npmdoc-express-handlebars)
+#### basic api documentation for  [express-handlebars (v3.0.0)](https://github.com/ericf/express-handlebars)  [![npm package](https://img.shields.io/npm/v/npmdoc-express-handlebars.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-express-handlebars) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-express-handlebars.svg)](https://travis-ci.org/npmdoc/node-npmdoc-express-handlebars)
 
 #### A Handlebars view engine for Express which doesn't suck.
 
@@ -77,7 +77,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "3.0.0"
+    "version": "3.0.0",
+    "bin": {}
 }
 ```
 
